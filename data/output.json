@@ -1,0 +1,412 @@
+{
+    "companies": [
+        {
+            "type": "aircraft manufacturer",
+            "id": "Boeing"
+        },
+        {
+            "type": "aircraft manufacturer",
+            "id": "Airbus"
+        },
+        {
+            "type": "aircraft manufacturer",
+            "id": "Embraer"
+        },
+        {
+            "type": "aircraft manufacturer",
+            "id": "Bombardier"
+        },
+        {
+            "type": "engine manufacturer",
+            "id": "Rolls-Royce"
+        },
+        {
+            "type": "engine manufacturer",
+            "id": "Pratt & Whitney"
+        },
+        {
+            "type": "engine manufacturer",
+            "id": "General Electric"
+        }
+    ],
+    "aircraft": [
+        {
+            "manufacturer": "Boeing",
+            "id": "B737"
+        },
+        {
+            "manufacturer": "Boeing",
+            "id": "B747"
+        },
+        {
+            "manufacturer": "Boeing",
+            "id": "B757"
+        },
+        {
+            "manufacturer": "Boeing",
+            "id": "B767"
+        },
+        {
+            "manufacturer": "Boeing",
+            "id": "B777"
+        },
+        {
+            "manufacturer": "Boeing",
+            "id": "B787"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A220"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A319"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A320"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A321"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A330"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A340"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A350"
+        },
+        {
+            "manufacturer": "Airbus",
+            "id": "A380"
+        },
+        {
+            "manufacturer": "Embraer",
+            "id": "E-2"
+        },
+        {
+            "manufacturer": "Embraer",
+            "id": "E-Jet"
+        },
+        {
+            "manufacturer": "Bombardier",
+            "id": "CRJ"
+        }
+    ],
+    "variants": [
+        {
+            "parent": "B737",
+            "id": "B736"
+        },
+        {
+            "parent": "B737",
+            "id": "B737"
+        },
+        {
+            "parent": "B737",
+            "id": "B738"
+        },
+        {
+            "parent": "B737",
+            "id": "B739"
+        },
+        {
+            "parent": "B737",
+            "id": "B37M"
+        },
+        {
+            "parent": "B737",
+            "id": "B38M"
+        },
+        {
+            "parent": "B737",
+            "id": "B39M"
+        },
+        {
+            "parent": "B737",
+            "id": "B3XM"
+        },
+        {
+            "parent": "B747",
+            "id": "B744"
+        },
+        {
+            "parent": "B747",
+            "id": "B748"
+        },
+        {
+            "parent": "B757",
+            "id": "B752"
+        },
+        {
+            "parent": "B757",
+            "id": "B753"
+        },
+        {
+            "parent": "B767",
+            "id": "B763"
+        },
+        {
+            "parent": "B767",
+            "id": "B764"
+        },
+        {
+            "parent": "B777",
+            "id": "B772"
+        },
+        {
+            "parent": "B777",
+            "id": "B773"
+        },
+        {
+            "parent": "B777",
+            "id": "B77W"
+        },
+        {
+            "parent": "B777",
+            "id": "B77L"
+        },
+        {
+            "parent": "B777",
+            "id": "B77X"
+        },
+        {
+            "parent": "B787",
+            "id": "B788"
+        },
+        {
+            "parent": "B787",
+            "id": "B789"
+        },
+        {
+            "parent": "B787",
+            "id": "B78X"
+        },
+        {
+            "parent": "A330",
+            "id": "A332"
+        },
+        {
+            "parent": "A330",
+            "id": "A333"
+        },
+        {
+            "parent": "A330",
+            "id": "A338"
+        },
+        {
+            "parent": "A330",
+            "id": "A339"
+        },
+        {
+            "parent": "A340",
+            "id": "A343"
+        },
+        {
+            "parent": "A340",
+            "id": "A345"
+        },
+        {
+            "parent": "A340",
+            "id": "A346"
+        },
+        {
+            "parent": "A350",
+            "id": "A359"
+        },
+        {
+            "parent": "A350",
+            "id": "A35K"
+        },
+        {
+            "parent": "A380",
+            "id": "A388"
+        },
+        {
+            "parent": "A220",
+            "id": "A221"
+        },
+        {
+            "parent": "A220",
+            "id": "A223"
+        },
+        {
+            "parent": "A319",
+            "id": "A319"
+        },
+        {
+            "parent": "A319",
+            "id": "A19N"
+        },
+        {
+            "parent": "A321",
+            "id": "A21N"
+        },
+        {
+            "parent": "A321",
+            "id": "A321"
+        },
+        {
+            "parent": "A320",
+            "id": "A320"
+        },
+        {
+            "parent": "A320",
+            "id": "A20N"
+        },
+        {
+            "parent": "E-Jet",
+            "id": "E170"
+        },
+        {
+            "parent": "E-Jet",
+            "id": "E175"
+        },
+        {
+            "parent": "E-Jet",
+            "id": "E190"
+        },
+        {
+            "parent": "E-Jet",
+            "id": "E195"
+        },
+        {
+            "parent": "E-2",
+            "id": "E275"
+        },
+        {
+            "parent": "E-2",
+            "id": "E290"
+        },
+        {
+            "parent": "E-2",
+            "id": "E295"
+        },
+        {
+            "parent": "CRJ",
+            "id": "CRJK"
+        },
+        {
+            "parent": "CRJ",
+            "id": "CRJ9"
+        }
+    ],
+    "engine": [
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "Trent 7000",
+            "powers": "A338, A339"
+        },
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "Trent XWB",
+            "powers": "A359, A35K"
+        },
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "Trent 1000",
+            "powers": "B788, B789, B78X"
+        },
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "Trent 900",
+            "powers": "A388"
+        },
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "Trent 500",
+            "powers": "A345, A346"
+        },
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "Trent 800",
+            "powers": "B772, B773"
+        },
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "Trent 700",
+            "powers": "A330"
+        },
+        {
+            "manufacturer": "Rolls-Royce",
+            "id": "RB211-524",
+            "powers": "B744, B752, B753, B763"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "GE90",
+            "powers": "B772, B77L, B77W"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "GE9X",
+            "powers": "B77X"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "GEnx",
+            "powers": "B748, B787"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "CFM56",
+            "powers": "B736, B737, B738, B739, A319, A320, A343, A321"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "CFM Leap-1A",
+            "powers": "A19N, A20N, A21N"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "CFM Leap-1B ",
+            "powers": "B37M, B38M, B39M, B3XM"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "CF6",
+            "powers": "B744, B763, B764, A332, A333"
+        },
+        {
+            "manufacturer": "General Electric",
+            "id": "CF34",
+            "powers": "E170, E175, E190, E195, CRJK, CRJ9"
+        },
+        {
+            "manufacturer": "Pratt & Whitney",
+            "id": "PW1500G",
+            "powers": "A221, A223"
+        },
+        {
+            "manufacturer": "Pratt & Whitney",
+            "id": "PW1900G",
+            "powers": "E290, E295"
+        },
+        {
+            "manufacturer": "Pratt & Whitney",
+            "id": "PW1700G",
+            "powers": "E275"
+        },
+        {
+            "manufacturer": "Pratt & Whitney",
+            "id": "PW1100G",
+            "powers": "A19N, A20N, A21N"
+        },
+        {
+            "manufacturer": "Pratt & Whitney",
+            "id": "PW4000",
+            "powers": "B744, B763, B764, B772, B773, A332, A333"
+        },
+        {
+            "manufacturer": "Pratt & Whitney",
+            "id": "PW2000",
+            "powers": "B752, B753"
+        }
+    ]
+}
